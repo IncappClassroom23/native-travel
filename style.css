@@ -1,0 +1,80 @@
+@font-face {
+    font-family: silent;
+    src: url("assets/Silent\ Forest.ttf");
+}
+body{
+    overflow-x: hidden;
+}
+p{
+    font-size: 80%;
+}
+header{
+    background-image: linear-gradient(rgba(157, 219, 248, 0.53),rgba(0, 0, 0, 0.719)) , url("assets/header.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    padding-bottom: 150px;
+}
+nav{
+    background-color: rgba(255, 255, 255, 0.758);
+    border-radius: 15px;
+}
+header h1{
+    font-size: 50px;
+}
+span{
+    font-family: silent;
+}
+#sec-1,#sec-3,#sec-6{
+    margin-top: -70px;
+    padding: 0 40px;
+}
+#sec-1>div>div>div{
+    text-align: left;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: white;
+    margin: 10px;
+    box-shadow: 0px 10px 10px 2px rgb(169, 169, 169);
+}
+#sec-1-div-1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)) , url("assets/greece.jpg");
+}
+#sec-1-div-2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)) , url("assets/srilanka.jpg");
+}
+#sec-1-div-3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)) , url("assets/uae.jpg");
+}
+#sec-2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)) , url("assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    color: white;
+}
+#big-box-right{
+    border-left: 100px solid rgb(226, 226, 226); 
+    background-color: rgb(226, 226, 226); 
+    margin-left: -100px; 
+    z-index: -1;
+}
+#big-box-left{
+    border-left: 100px solid rgb(226, 226, 226); 
+    background-color: rgb(226, 226, 226); 
+    margin-right: -100px; 
+    z-index: -1;
+}
+#sec-5{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)) , url("assets/caribbean.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    color: white;
+}
+#top-btn{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
